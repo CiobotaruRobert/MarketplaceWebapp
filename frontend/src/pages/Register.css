@@ -1,0 +1,87 @@
+.register-page {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.register-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(40, 57, 101, 0.15);
+  padding: 50px 40px;
+  transition: transform 0.3s ease;
+}
+
+.register-title {
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.error-message {
+  color: #e74c3c;
+  margin-bottom: 22px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.form-input {
+  padding: 14px 18px;
+  margin-bottom: 25px;
+  font-size: 1.05rem;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fafafa;
+  font-weight: 600;
+}
+
+.form-input::placeholder {
+  color: #bbb;
+  font-style: italic;
+}
+
+.form-input:focus {
+  border-color: #5a87d3;
+  outline: none;
+  box-shadow: 0 0 12px 2px rgba(90, 135, 211, 0.5);
+  background-color: #fff;
+}
+
+.register-button {
+  background: linear-gradient(45deg, #5a87d3, #486abf);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(72, 106, 191, 0.6);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-button:hover {
+  background: linear-gradient(45deg, #486abf, #3c559a);
+  box-shadow: 0 8px 20px rgba(60, 85, 154, 0.8);
+}

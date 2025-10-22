@@ -1,0 +1,53 @@
+.seller-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 15px;
+}
+
+.seller-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 12px 25px rgba(40, 57, 101, 0.15);
+}
+
+.seller-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.seller-error {
+  color: #e74c3c;
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.seller-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.seller-button {
+  background-color: #27ae60;
+  color: white;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.seller-button:hover {
+  background-color: #1e874b;
+}

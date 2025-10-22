@@ -1,0 +1,161 @@
+.home-container {
+  max-width: 1200px;
+  margin: 60px auto 0 auto;
+  padding: 2rem 1rem 2rem 1rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  padding-top: 70px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #a9c9ff 0%, #4A90E2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.home-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.home-error {
+  color: #c00;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: #fdd;
+  padding: 1rem;
+  border-radius: 6px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-empty {
+  text-align: center;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.ad-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.ad-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.ad-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.ad-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.ad-image-placeholder {
+  background-color: #eee;
+  color: #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.ad-info {
+  padding: 1rem;
+}
+
+.ad-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #222;
+  margin: 0 0 0.5rem 0;
+}
+
+.ad-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #009f44;
+  margin: 0 0 0.25rem 0;
+}
+
+.ad-location {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+.categories-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.category-button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.category-button:hover,
+.category-button.active {
+  background-color: #dcdcdc;
+}
+
+.category-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.category-clear {
+  background-color: #ffdddd;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.categories-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 0;
+  float: right;
+}

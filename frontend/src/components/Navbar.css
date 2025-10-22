@@ -1,0 +1,120 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 20px;
+  background-color: #4A90E2;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.navbar-logo {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.login-button-nav {
+  background-color: #fff;
+  border: none;
+  color: #4A90E2;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button-nav:hover {
+  background-color: #357ABD;
+  color: white;
+}
+
+.logout-button-nav {
+  background-color: #fff;
+  border: none;
+  color: #4A90E2;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logout-button-nav:hover {
+  background-color: #357ABD;
+  color: white;
+}
+
+.post-ad-button-nav {
+  background-color: #fff;
+  border: none;
+  color: #4A90E2;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.post-ad-button-nav:hover {
+  background-color: #357ABD;
+  color: white;
+}
+
+.chat-button-nav {
+  background-color: #fff;
+  border: none;
+  color: #4A90E2;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.chat-button-nav:hover {
+  background-color: #357ABD;
+  color: white;
+}
+
+.favorite-ads-button-nav {
+  background-color: #fff;
+  border: none;
+  color: #4A90E2;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.favorite-ads-button-nav:hover {
+  background-color: #357ABD;
+  color: white;
+}
+
+.navbar-logo-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+
